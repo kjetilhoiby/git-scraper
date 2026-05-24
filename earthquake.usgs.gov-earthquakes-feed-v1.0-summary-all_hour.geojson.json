@@ -1,381 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779435455000,
+    "generated": 1779607749000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 9
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "56 km W of Anchor Point, Alaska",
-        "time": 1779435262708,
-        "updated": 1779435366713,
+        "mag": 1.2,
+        "place": "50 km NW of Eureka Roadhouse, Alaska",
+        "time": 1779606761100,
+        "updated": 1779606852303,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kbagcd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kbagcd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kerolc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kerolc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
+        "sig": 22,
         "net": "ak",
-        "code": "a2026kbagcd",
-        "ids": ",aka2026kbagcd,",
+        "code": "a2026kerolc",
+        "ids": ",aka2026kerolc,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 80,
+        "nst": 23,
+        "dmin": 0.5,
+        "rms": 0.8,
+        "gap": 133,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 56 km W of Anchor Point, Alaska"
+        "title": "M 1.2 - 50 km NW of Eureka Roadhouse, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.818,
-          59.876,
-          98
+          -147.856,
+          62.258,
+          30.6
         ]
       },
-      "id": "aka2026kbagcd"
+      "id": "aka2026kerolc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "11 km WSW of West Bishop, CA",
-        "time": 1779435128610,
-        "updated": 1779435226132,
+        "mag": 1.9,
+        "place": "44 km NW of Toyah, Texas",
+        "time": 1779606630100,
+        "updated": 1779606993014,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366847",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366847.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kdbcvp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kdbcvp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "nc",
-        "code": "75366847",
-        "ids": ",nc75366847,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1539,
-        "rms": 0.06,
-        "gap": 182,
+        "sig": 56,
+        "net": "tx",
+        "code": "2026kdbcvp",
+        "ids": ",tx2026kdbcvp,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 44 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.103,
+          31.618,
+          5.268
+        ]
+      },
+      "id": "tx2026kdbcvp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.94,
+        "place": "13 km SE of Pāhala, Hawaii",
+        "time": 1779606555710,
+        "updated": 1779606764150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74967452",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74967452.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "hv",
+        "code": "74967452",
+        "ids": ",hv74967452,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.1176,
+        "rms": 0.150000006,
+        "gap": 198,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 11 km WSW of West Bishop, CA"
+        "title": "M 1.9 - 13 km SE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.565498352051,
-          37.3201675415039,
-          9.09000015258789
+          -155.382171630859,
+          19.1201667785645,
+          28.5499992370605
         ]
       },
-      "id": "nc75366847"
+      "id": "hv74967452"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "97 km SSE of Kokhanok, Alaska",
-        "time": 1779433980948,
-        "updated": 1779434844607,
+        "mag": 0.75,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1779606007430,
+        "updated": 1779607049021,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kaznpg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kaznpg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75367972",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75367972.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026kaznpg",
-        "ids": ",aka2026kaznpg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2,
-        "rms": 0.2,
-        "gap": 106,
-        "magType": "ml",
+        "sig": 9,
+        "net": "nc",
+        "code": "75367972",
+        "ids": ",nc75367972,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.005005,
+        "rms": 0.02,
+        "gap": 149,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 97 km SSE of Kokhanok, Alaska"
+        "title": "M 0.8 - 9 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.264,
-          58.601,
-          96
+          -122.841163635254,
+          38.8216667175293,
+          1.79999995231628
         ]
       },
-      "id": "aka2026kaznpg"
+      "id": "nc75367972"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "2 km SW of Boquerón, Puerto Rico",
-        "time": 1779433775274,
-        "updated": 1779435158647,
+        "mag": 1.71,
+        "place": "80 km NE of Tonopah, Nevada",
+        "time": 1779605612225,
+        "updated": 1779605767357,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szfh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000szfh.geojson",
-        "felt": 2,
-        "cdi": 2.6,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919152",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00919152.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 45,
+        "net": "nn",
+        "code": "00919152",
+        "ids": ",nn00919152,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 1.052,
+        "rms": 0.257,
+        "gap": 177,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 80 km NE of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.485,
+          38.4983,
+          6.9496
+        ]
+      },
+      "id": "nn00919152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "64 km E of Nemuro, Japan",
+        "time": 1779605496264,
+        "updated": 1779607091040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szw2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000szw2.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 113,
+        "sig": 312,
         "net": "us",
-        "code": "6000szfh",
-        "ids": ",us6000szfh,",
+        "code": "6000szw2",
+        "ids": ",us6000szw2,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.072,
-        "rms": 0.66,
-        "gap": 272,
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 2.677,
+        "rms": 0.62,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 64 km E of Nemuro, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.3643,
+          43.2687,
+          74.54
+        ]
+      },
+      "id": "us6000szw2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "52 km SSW of Whites City, New Mexico",
+        "time": 1779604596195,
+        "updated": 1779605755582,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kczzqe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kczzqe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "tx",
+        "code": "2026kczzqe",
+        "ids": ",us6000szvz,tx2026kczzqe,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 77,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 2 km SW of Boquerón, Puerto Rico"
+        "title": "M 2.9 - 52 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.1854,
-          18.0087,
-          10
+          -104.507,
+          31.715,
+          5.4333
         ]
       },
-      "id": "us6000szfh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.91,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1779433707060,
-        "updated": 1779433908078,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472160",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472160.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41472160",
-        "ids": ",ci41472160,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.04513,
-        "rms": 0.18,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8115,
-          35.3028333333333,
-          8.4
-        ]
-      },
-      "id": "ci41472160"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.26,
-        "place": "10 km WNW of Cobb, CA",
-        "time": 1779433340880,
-        "updated": 1779433435879,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366842",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366842.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75366842",
-        "ids": ",nc75366842,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.00637,
-        "rms": 0.01,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 10 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.831497192383,
-          38.8543319702148,
-          1
-        ]
-      },
-      "id": "nc75366842"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.68,
-        "place": "10 km WNW of Cobb, CA",
-        "time": 1779433225350,
-        "updated": 1779433320924,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366837",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366837.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 43,
-        "net": "nc",
-        "code": "75366837",
-        "ids": ",nc75366837,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.006495,
-        "rms": 0.03,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 10 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.831665039062,
-          38.8544998168945,
-          0.800000011920929
-        ]
-      },
-      "id": "nc75366837"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.06,
-        "place": "1 km WNW of The Geysers, CA",
-        "time": 1779432651840,
-        "updated": 1779434542437,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366832.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75366832",
-        "ids": ",nc75366832,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.01422,
-        "rms": 0.02,
-        "gap": 84,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 1 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.770332336426,
-          38.7845001220703,
-          3.75999999046326
-        ]
-      },
-      "id": "nc75366832"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "3 km WNW of Banning, CA",
-        "time": 1779432209070,
-        "updated": 1779432415462,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41472152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41472152.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41472152",
-        "ids": ",ci41472152,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.1311,
-        "rms": 0.16,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 3 km WNW of Banning, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.904833333333,
-          33.9315,
-          11.5
-        ]
-      },
-      "id": "ci41472152"
+      "id": "tx2026kczzqe"
     }
   ],
   "bbox": [
-    -154.264,
-    18.0087,
-    0.80000001192093,
-    -67.1854,
-    59.876,
-    98
+    -155.38217163086,
+    19.120166778564,
+    1.7999999523163,
+    146.3643,
+    62.258,
+    74.54
   ]
 }
